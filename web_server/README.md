@@ -1,6 +1,6 @@
 # Minimalist Web Server in C
 
-This is a simple C web server that listens on localhost:8080 and serves the index.html file located in the same directory as the server program. The server listens for incoming HTTP GET requests and responds by serving the requested file.
+This is a minimalist web server written in C that listens on localhost:8080 and serves the index.html file located in the same directory as the server program. The server listens for incoming HTTP GET requests and responds by serving the requested file.
 
 ## Features
 
@@ -10,24 +10,24 @@ This is a simple C web server that listens on localhost:8080 and serves the inde
 
 ## Files
 
-- server.c: The C source code for the web server.
-- index.html: The HTML file served by the server.
+- `server.c`: The C source code for the web server.
+- `index.html`: The HTML file served by the server.
 
 ## How to Use
 
-Compile the server:
+1. Compile the server:
     
 ```bash
 gcc -o web_server server.c
 ```
 
-Run the server:
+2. Run the server:
 
 ```bash
 ./web_server
 ```
 
-Access the web page: Open a browser and visit http://localhost:8080/index.html to see the content of index.html.
+3. Access the web page: Open a browser and visit http://localhost:8080/index.html to see the content of index.html.
 
 ## Dependencies
 
