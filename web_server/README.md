@@ -1,4 +1,4 @@
-# Simple C Web Server
+# Minimalist Web Server in C
 
 This is a simple C web server that listens on localhost:8080 and serves the index.html file located in the same directory as the server program. The server listens for incoming HTTP GET requests and responds by serving the requested file.
 
