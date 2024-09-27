@@ -14,13 +14,13 @@ This is a minimalist text editor implemented in C that allows you to edit a spec
 
 ## How to Use
 
-1. Compile the editor:
+1. **Compile the editor:**
 
 ```bash
 gcc -o text_editor editor.c
 ```
 
-2. Run the editor:
+2. **Run the editor:**
 
 ```bash
 ./text_editor <filename>
@@ -28,12 +28,12 @@ gcc -o text_editor editor.c
 
 Replace <filename> with the path to the text file you want to edit.
 
-3. Edit a line:
+3. **Edit a line:**
 - The editor will display the current contents of the file.
 - Enter the line number you want to edit.
 - Provide the new content for that line.
 
-4. View results:
+4. **View results:**
 - The editor will display the modified contents of the file.
 
 ## Dependencies

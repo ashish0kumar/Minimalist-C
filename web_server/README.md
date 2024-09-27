@@ -15,19 +15,19 @@ This is a minimalist web server written in C that listens on localhost:8080 and 
 
 ## How to Use
 
-1. Compile the server:
+1. **Compile the server:**
     
 ```bash
 gcc -o web_server server.c
 ```
 
-2. Run the server:
+2. **Run the server:**
 
 ```bash
 ./web_server
 ```
 
-3. Access the web page: Open a browser and visit http://localhost:8080/index.html to see the content of index.html.
+3. **Access the web page:** Open a browser and visit http://localhost:8080/index.html to see the content of index.html.
 
 ## Dependencies
 
