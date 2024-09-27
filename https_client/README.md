@@ -26,10 +26,9 @@ sudo apt-get install libssl-dev
 gcc -o https_client client.c -lssl -lcrypto
 ```
 
-3. **Run the client:** Modify the IP address in the htonl(0x08080808) line to connect to your desired server. Then, run the client:
+3. **Run the client:** Modify the IP address in the `htonl(0x08080808)` line to connect to your desired server. Then, run the client:
 
-```
-bash
+```bash
 ./https_client
 ```
 
@@ -42,5 +41,5 @@ bash
 
 ## Notes
 
-- The IP address in the htonl(0x08080808) line represents 8.8.8.8. Change this to the desired server's IP address.
+- The IP address in the `htonl(0x08080808)` line represents `8.8.8.8`. Change this to the desired server's IP address.
 - Ensure your system is set up to handle HTTPS connections and that the server you are connecting to supports them.
