@@ -1,2 +1,2 @@
 # Minimalist-C
-A collection of minimalist C projects for Linux.
+A collection of minimalist and low-level C projects for Linux.
