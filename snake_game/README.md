@@ -1,6 +1,6 @@
 # Minimalist Snake Game in C
 
-This is a minimalist Snake game written in C using the ncurses `library`. The player controls a snake that moves around the screen, consumes food, and grows longer. The game continues until the player chooses to exit.
+This is a minimalist Snake game written in C using the `ncurses` library. The player controls a snake that moves around the screen, consumes food, and grows longer. The game continues until the player chooses to exit.
 
 ## Features
 
