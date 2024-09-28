@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void print_hex(unsigned char* buffer, int num) {
   for (int i = 0; i < num; i++) {
