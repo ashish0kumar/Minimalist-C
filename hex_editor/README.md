@@ -28,6 +28,12 @@ gcc -o hexeditor hexeditor.c
 
 Replace `<file>` with the file you want to edit (e.g., `index.html`).
 
+If you don't have a file like index.html, you can download one using wget:
+
+```bash
+wget google.com -O index.html
+```
+
 Example:
 
 ```bash
