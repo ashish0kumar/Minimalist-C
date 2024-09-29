@@ -40,13 +40,13 @@ gcc -o server server.c -lssl
 
 5. **Access the server:** Open a web browser and navigate to `https://localhost:8080/index.html`. Since the server uses a self-signed certificate, you may receive a warning about the security of the connection. You can proceed to the site.
 
-## Code Explanation
+## How It Works
 
 The `server.c` file sets up a TCP socket, listens for incoming connections, and serves the `index.html` file over a secure SSL connection. It responds to `HTTP GET` requests and handles requests for the `index.html` file specifically.
 
 ## Dependencies
 
-OpenSSL: Required for SSL/TLS support.
+`OpenSSL`: Required for SSL/TLS support.
 
 ## Notes
 

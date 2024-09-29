@@ -47,7 +47,7 @@ You can exit the program by closing the window or pressing `Ctrl+C` in the termi
 
 ## How It Works
 
-Key X11 Functions:
+**Key X11 Functions:**
 
 - `XOpenDisplay(NULL)`: Opens a connection to the X server.
 - `XCreateSimpleWindow()`: Creates a window with specified dimensions and colors.
@@ -56,7 +56,7 @@ Key X11 Functions:
 - `XNextEvent()`: Waits for and retrieves the next event from the event queue.
 - `XDrawString()`: Draws a string of text at a specific position within the window when an Expose event is triggered.
 
-Event Handling
+**Event Handling:**
 
 The program waits in an infinite loop for the Expose event (which occurs when the window is initially shown or needs to be redrawn), and then draws the text inside the window.
 
