@@ -1,6 +1,6 @@
 # Minimalist Chat Server in C
 
-This project demonstrates a minimalist chat server-client setup in C using socket programming and the `poll()` system call to handle multiple file descriptors, allowing the server to receive and send messages between connected clients.
+This is a minimalist chat server-client setup written in C using socket programming and the `poll()` system call to handle multiple file descriptors, allowing the server to receive and send messages between connected clients.
 
 ## Files
 
