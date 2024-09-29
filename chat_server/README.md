@@ -10,14 +10,14 @@ This is a minimalist chat server-client setup written in C using socket programm
 
 ## How to Use
 
-1. Compile the Server and Client
+1. **Compile the Server and Client:**
 
 ```bash
 gcc -o server server.c
 gcc -o client client.c
 ```
 
-2. Run the Server and Client in different windows
+2. **Run the Server and Client in different windows:**
 
 ```bash
 ./server
@@ -27,7 +27,7 @@ The server will start and listen for incoming client connections on port `9999`.
 
 The client will connect to the server, and you can start sending and receiving messages.
 
-3. Chat Interaction
+3. **Chat Interaction**
 
 - The server will print messages sent by the client.
 - The client will display messages sent by the server.
