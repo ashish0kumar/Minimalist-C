@@ -1,4 +1,4 @@
-# Simple X11 GUI Window in C
+# Minimalist X11 GUI Window in C
 
 This project demonstrates how to create a simple graphical window using the X11 library on Linux. It opens a basic GUI window and displays a string using the X11 API.
 
