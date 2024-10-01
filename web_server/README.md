@@ -2,6 +2,8 @@
 
 This is a minimalist web server written in C that listens on localhost:8080 and serves the index.html file located in the same directory as the server program. The server listens for incoming HTTP GET requests and responds by serving the requested file.
 
+![chat_server](/screenshots/web_server.png)
+
 ## Features
 
 - Runs a basic web server on localhost port 8080
