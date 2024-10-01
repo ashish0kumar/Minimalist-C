@@ -2,6 +2,8 @@
 
 This is a minimalist Hex Editor written in C. It allows you to open a file (e.g., `index.html`), view its contents in hexadecimal format, modify any byte, and save the changes back to the file.
 
+![chat_server](/screenshots/hex_editor.png)
+
 ## Features
 
 - **View file in hexadecimal:** The program displays the file's contents in hexadecimal.
