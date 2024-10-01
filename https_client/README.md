@@ -2,6 +2,8 @@
 
 This is a minimalist HTTPS client written in C that connects to a specified server over HTTPS, sends a GET request, and prints the server's response. The client uses OpenSSL for secure communication.
 
+![chat_server](/screenshots/https_client.png)
+
 ## Features
 
 - Connects to an HTTPS server on port 443
