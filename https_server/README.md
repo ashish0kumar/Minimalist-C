@@ -2,6 +2,8 @@
 
 This is a minimalist HTTPS server written in C that serves an HTML file over a secure connection. The server uses OpenSSL for SSL/TLS support and listens on port `8080`.
 
+![chat_server](/screenshots/https_server.png)
+
 ## Files
 
 - `server.c`: The C source code for the HTTPS server.
