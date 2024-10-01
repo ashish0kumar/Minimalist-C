@@ -2,6 +2,8 @@
 
 This is a minimalist text editor implemented in C that allows you to edit a specified line in a text file. You can enter the line number you wish to edit, provide new content for that line, and the editor will save the changes back to the file.
 
+![chat_server](/screenshots/text_editor.png)
+
 ## Features
 
 - Edit a specific line in a text file by providing the line number
