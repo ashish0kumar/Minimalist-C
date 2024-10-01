@@ -2,6 +2,8 @@
 
 This is a minimalist Snake game written in C using the `ncurses` library. The player controls a snake that moves around the screen, consumes food, and grows longer. The game continues until the player chooses to exit.
 
+![chat_server](/screenshots/snake_game.png)
+
 ## Features
 
 - Control the snake represented by `~` using arrow keys
