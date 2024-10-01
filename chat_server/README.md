@@ -2,6 +2,8 @@
 
 This is a minimalist chat server-client setup written in C using socket programming and the `poll()` system call to handle multiple file descriptors, allowing the server to receive and send messages between connected clients.
 
+![chat_server](/screenshots/chat_server.png)
+
 ## Files
 
 - `server.c`: Source code for the server that listens for incoming connections and handles communication between clients.
@@ -32,7 +34,6 @@ The client will connect to the server, and you can start sending and receiving m
 - The server will print messages sent by the client.
 - The client will display messages sent by the server.
 - Both client and server can type messages in their respective terminals, and the messages will be relayed to each other.
-
 
 ## How It Works
 
