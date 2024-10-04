@@ -1,20 +1,20 @@
-# Minimalist Hex Editor in C
+# 🔢🛠️ Minimalist Hex Editor in C
 
 This is a minimalist Hex Editor written in C. It allows you to open a file (e.g., `index.html`), view its contents in hexadecimal format, modify any byte, and save the changes back to the file.
 
 ![chat_server](/screenshots/hex_editor.png)
 
-## Features
+## ✨ Features
 
 - **View file in hexadecimal:** The program displays the file's contents in hexadecimal.
 - **Edit hex values:** You can modify specific bytes by entering a file offset and a new hex value.
 - **Save changes:** After making modifications, you can save the changes back to the file.
 
-## Files
+## 📂 Files
 
 - `hexeditor.c`: The C source code for the hex editor.
 
-## How to Use
+## 🚀 How to Use
 
 1. **Compile the hex editor:**
 
@@ -71,11 +71,11 @@ Value at location 55 changed to 0xAB
 
 5. **Save changes:** After editing, use the `s` command to save changes and exit.
 
-## Dependencies
+## 📦 Dependencies
 
 - No external libraries required; only standard C libraries.
 
-## Notes
+## 🗒️ Notes
 
 - The editor works on binary files. Be cautious when editing as it directly modifies the file contents.
 - It reads and writes up to 1024 bytes from the file. If the file is larger, it will only handle the first 1024 bytes.

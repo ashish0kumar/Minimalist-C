@@ -1,16 +1,16 @@
-# Minimalist Chat Server in C
+# 💬💻 Minimalist Chat Server in C
 
 This is a minimalist chat server-client setup written in C using socket programming and the `poll()` system call to handle multiple file descriptors, allowing the server to receive and send messages between connected clients.
 
 ![chat_server](/screenshots/chat_server.png)
 
-## Files
+## 📂 Files
 
 - `server.c`: Source code for the server that listens for incoming connections and handles communication between clients.
 - `client.c`: Source code for the client that connects to the server and participates in the chat.
 
 
-## How to Use
+## 🚀 How to Use
 
 1. **Compile the Server and Client:**
 
@@ -35,7 +35,7 @@ The client will connect to the server, and you can start sending and receiving m
 - The client will display messages sent by the server.
 - Both client and server can type messages in their respective terminals, and the messages will be relayed to each other.
 
-## How It Works
+## ⚙️ How It Works
 
 **Key Functions in `server.c` and `client.c`:**
 
@@ -59,7 +59,7 @@ Both the server and client use `poll()` to monitor two file descriptors:
 When a file descriptor is ready (either user input or data from the socket), the appropriate action is taken (read from stdin or receive/send data from/to the socket).
 
 
-## Notes
+## 📋 Notes
 
 - The server and client both operate in an infinite loop, continuously polling for new data and handling messages.
 - This is a minimalist chat application designed for simplicity and demonstration purposes. It can be expanded to handle multiple clients or incorporate more advanced features like message broadcasting or encryption.

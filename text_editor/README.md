@@ -1,20 +1,20 @@
-# Minimalist Text Editor in C
+# 📝🖱️ Minimalist Text Editor in C
 
 This is a minimalist text editor implemented in C that allows you to edit a specified line in a text file. You can enter the line number you wish to edit, provide new content for that line, and the editor will save the changes back to the file.
 
 ![chat_server](/screenshots/text_editor.png)
 
-## Features
+## ✨ Features
 
 - Edit a specific line in a text file by providing the line number
 - Display the file contents before and after modification
 - Supports basic error handling for file operations
 
-## Files
+## 📂 Files
 
 - `editor.c`: The C source code for the text editor.
 
-## How to Use
+## 🚀 How to Use
 
 1. **Compile the editor:**
 
@@ -38,11 +38,11 @@ Replace <filename> with the path to the text file you want to edit.
 4. **View results:**
 - The editor will display the modified contents of the file.
 
-## Dependencies
+## 📦 Dependencies
 
 - GCC (or any C compiler)
 
-## Notes
+## 🗒️ Notes
 
 - The editor supports only basic line editing and assumes that the text file is smaller than 1024 bytes.
 - Ensure that the file you want to edit exists in the specified path.
