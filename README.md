@@ -3,14 +3,15 @@ A collection of minimalist and low-level C projects showcasing various concepts 
 
 ## 🔍 Explore
 
-#### [💬💻 Minimalist `Chat Server` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/chat_server)
-#### [🌐📡 Minimalist `Web Server` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/web_server)
-#### [🔒🖥️ Minimalist `HTTPS Client` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/https_client)
-#### [🔐🌍 Minimalist `HTTPS Server` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/https_server)
-#### [📝🖱️ Minimalist `Text Editor` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/text_editor)
-#### [🔢🛠️ Minimalist `Hex Editor` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/hex_editor)
-#### [🐍🎮 Minimalist `Snake Game` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/snake_game)
-#### [📚🖱️ Minimalist `X11 GUI Window` in C](https://github.com/ashish0kumar/Minimalist-C/tree/main/x11_gui)
+#### [💬💻 Minimalist `Chat Server` in C](chat_server)
+#### [🌐📡 Minimalist `Web Server` in C](web_server)
+#### [🔒🖥️ Minimalist `HTTPS Client` in C](https_client)
+#### [🔐🌍 Minimalist `HTTPS Server` in C](https_server)
+#### [📝🖱️ Minimalist `Text Editor` in C](text_editor)
+#### [🔢🛠️ Minimalist `Hex Editor` in C](hex_editor)
+#### [🐍🎮 Minimalist `Snake Game` in C](snake_game)
+#### [>_🍩 Minimalist `Donut` in C](donut)
+#### [📚🖱️ Minimalist `X11 GUI Window` in C](x11_gui)
 
 ## ✍️ Contributions
 

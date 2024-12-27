@@ -1,6 +1,6 @@
 # 🍩 donut.c
 
-This is a minimalist spinning donut animation written in C. The program renders a rotating 3D torus in the terminal using ASCII characters and simple math.
+This is a minimalist spinning donut animation written in C. The program renders a rotating 3D torus in the terminal using ASCII characters without using any external math library, relying solely on basic arithmetic and trigonometric approximations implemented in the code.
 
 ![donut.c](/screenshots/donut.gif)
 
