@@ -1,14 +1,14 @@
-# 🍩 donut.c
+# `donut.c`
 
 This is a minimalist spinning donut animation written in C. The program renders a rotating 3D torus in the terminal using ASCII characters without using any external math library, relying solely on basic arithmetic and trigonometric approximations implemented in the code.
 
 ![donut.c](/screenshots/donut.gif)
 
-## 📂 Files
+## Files
 
 - `donut.c`:  The C source code for the donut animation.
 
-## 🚀 How to Use
+## How to Use
 
 **1. Compile the file:**
 
@@ -22,9 +22,9 @@ gcc -o donut donut.c
 ./donut
 ```
 
-## 🗒️ Notes
+## Notes
 
-- The program is designed to be run in a terminal that supports ANSI escape codes for clearing the screen and repositioning the cursor.
+- The program is designed to be run in a terminal that supports `ANSI` escape codes for clearing the screen and repositioning the cursor.
 
 - The code avoids floating-point operations by relying on fixed-point arithmetic for efficiency.
 

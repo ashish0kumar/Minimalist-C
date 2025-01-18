@@ -1,20 +1,20 @@
-# 🔢🛠️ Minimalist Hex Editor in C
+# `hex editor`
 
 This is a minimalist Hex Editor written in C. It allows you to open a file (e.g., `index.html`), view its contents in hexadecimal format, modify any byte, and save the changes back to the file.
 
 ![chat_server](/screenshots/hex_editor.png)
 
-## ✨ Features
+## Features
 
 - **View file in hexadecimal:** The program displays the file's contents in hexadecimal.
 - **Edit hex values:** You can modify specific bytes by entering a file offset and a new hex value.
 - **Save changes:** After making modifications, you can save the changes back to the file.
 
-## 📂 Files
+## Files
 
 - `hexeditor.c`: The C source code for the hex editor.
 
-## 🚀 How to Use
+## How to Use
 
 1. **Compile the hex editor:**
 
@@ -30,7 +30,7 @@ gcc -o hexeditor hexeditor.c
 
 Replace `<file>` with the file you want to edit (e.g., `index.html`).
 
-If you don't have a file like index.html, you can download one using wget:
+If you don't have a file like `index.html`, you can download one using wget:
 
 ```bash
 wget google.com -O index.html
@@ -44,16 +44,16 @@ Example:
 
 3. **Commands:** Once the file is loaded, you can use the following commands to interact with the file:
 
-- p: Print the file content from a specific location in hexadecimal format.
+- `p`: Print the file content from a specific location in hexadecimal format.
     - Enter a location (byte offset) from which you want to start printing.
-    - The editor will display 10 bytes starting from that location.
+    - The editor will display `10` bytes starting from that location.
 
-- e: Edit the file content at a specific location.
+- `e`: Edit the file content at a specific location.
     - Enter a location (byte offset) where you want to edit.
     - Provide a new hexadecimal value (e.g., `0xFF`).
     - The value at that location will be updated to the new hex value.
 
-- s: Save the changes and exit the program.
+- `s`: Save the changes and exit the program.
 
 4. **Example usage:**
 
@@ -71,11 +71,7 @@ Value at location 55 changed to 0xAB
 
 5. **Save changes:** After editing, use the `s` command to save changes and exit.
 
-## 📦 Dependencies
-
-- No external libraries required; only standard C libraries.
-
-## 🗒️ Notes
+## Notes
 
 - The editor works on binary files. Be cautious when editing as it directly modifies the file contents.
-- It reads and writes up to 1024 bytes from the file. If the file is larger, it will only handle the first 1024 bytes.
+- It reads and writes up to `1024` bytes from the file. If the file is larger, it will only handle the first `1024` bytes.

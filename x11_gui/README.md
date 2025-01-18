@@ -1,21 +1,21 @@
-# 📚🖱️ Minimalist X11 GUI Window in C
+# `x11 gui window`
 
-This project demonstrates how to create a simple graphical window using the X11 library on Linux. It opens a basic GUI window and displays a string using the X11 API.
+This project demonstrates how to create a simple graphical window using the `X11` library on Linux. It opens a basic GUI window and displays a string using the `X11` API.
 
 ![chat_server](/screenshots/x11_gui.png)
 
-## ✨ Features
+## Features
 
-- Creates an X11 window on Linux.
+- Creates an `X11` window on Linux.
 - Draws a text string within the window using the `XDrawString` function.
 - Utilizes basic event handling to redraw content when the window is exposed.
 
-## 📂 Files
+## Files
 
-- `gui.c`: The source file containing the code for the X11 window.
+- `gui.c`: The source file containing the code for the `X11` window.
 
 
-## 🚀 How to Use
+## How to Use
 
 1. **Compile the Program:**
 
@@ -34,7 +34,7 @@ A simple window will open with the text `A Simple X11 GUI Window` displayed insi
 You can exit the program by closing the window or pressing `Ctrl+C` in the terminal.
 
 
-## ⚙️ How It Works
+## How It Works
 
 **Key X11 Functions:**
 
@@ -50,20 +50,18 @@ You can exit the program by closing the window or pressing `Ctrl+C` in the termi
 The program waits in an infinite loop for the Expose event (which occurs when the window is initially shown or needs to be redrawn), and then draws the text inside the window.
 
 
-## 📦 Dependencies
+## Dependencies
 
-To compile and run this program, you need the following:
+- `X11` development libraries.
 
-- A Linux system with the X11 development libraries installed.
-
-To install X11 development libraries on Ubuntu or other Debian-based systems, use:
+To install `X11` development libraries on Ubuntu or other Debian-based systems, use:
 
 ```bash
 sudo apt-get install libx11-dev
 ```
 
 
-## 🗒️ Notes
+## Notes
 
-- This is a basic X11 application that demonstrates how to create a simple graphical window.
+- This is a basic `X11` application that demonstrates how to create a simple graphical window.
 - It can be extended with more functionality, such as handling other types of events (keyboard input, mouse clicks, etc.).
